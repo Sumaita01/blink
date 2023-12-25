@@ -1,0 +1,67 @@
+/* *C0MM0N CSS STARTS HERE */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primaryfont:font-family: 'Abril Fatface', serif;
+    font-family:cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;; 
+    
+    --thirdfont: 'Open Sans', sans-serif;
+    --primarycolor:#f5cad9;
+    --secondarycolor: #ffd447;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{display: flex;
+    flex-wrap:wrap ;
+
+}
+.align-center{
+    align-items: center;
+}
+
+/* *COMMON CSS ENDS HERE */
+header {
+    
+        background-color:var(--primarycolor);
+        color:rgb(0, 0, 0);
+        height: 50%;
+        width: 100%;
+        
+    }
+
+.about_img{
+    width: 20%;
+    height: 40%;
+
+    
+}
+.about_cnt{
+    width: 40%;
+    text-align: center;
+    padding-top:40% ;
+    padding-left: 5%;
+    font-family:  'Caveat', cursive;
+    font-size: 57px;
+
+   
+}
+
